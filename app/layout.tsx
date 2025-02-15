@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const iranSans = localFont({
+  src: [
+    {
+      path: "./fonts/irsansb.ttf",
+      weight: "900",
+      style: "normal",
+    },
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+    {
+      path: "./fonts/irsans.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-iran-sans",
 });
 
 export const metadata: Metadata = {
@@ -23,11 +32,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" dir="rtl">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${iranSans.variable} antialiased container max-w-[1700px] mx-auto overflow-x-hidden bg-pink-400 bg-opacity-80`}
       >
-        {children}
+        <main>
+          <Header />
+          {children}
+          <Footer />
+        </main>
       </body>
     </html>
   );
