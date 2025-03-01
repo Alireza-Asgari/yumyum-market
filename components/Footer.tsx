@@ -1,8 +1,11 @@
 import React from "react";
+import { IoLogoWhatsapp } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa6";
+import { FaTelegramPlane } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="w-full mt-8 bg-violet-900 pt-9">
+    <footer className="w-full mt-8 bg-violet-900 text-gray-100 pt-9">
       <div className="mx-auto px-4 xl:px-0">
         <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
           <div className="md:w-[316px]">
@@ -12,70 +15,54 @@ export default function Footer() {
               </h1>
             </div>
             <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-              fugit non. Incidunt dolorum adipisci, tempore asperiores nemo odio
-              facere officiis enim animi placeat eaque nesciunt alias beatae id,
-              at dicta.
+              مجموعه یام یام مارکت بر اساس اعتماد متقابل ایجاد شده است. شما به
+              راحتی می توانید با ما در تماس باشید. شماره تماس های پشتیبانی در
+              سایت قرار داده شده است. همچنین شما میتوانید از طریق شبکه های
+              اجتماعی و پیام رسان های داخلی و خارجی با ما در تماس باشید.
+            </p>
+          </div>
+          <div className="md:w-96 text-center flex flex-col items-center">
+            <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">
+              برای اطلاع از اخبار جدید به سایت ما سر بزنید و ما را در شبکه های
+              مجازی دنبال کنید!
             </p>
             <div className="mt-[18px] flex gap-4">
-              <a className="hover:scale-110" target="_blank" href="#">
-                <img
-                  alt="facebook icon"
-                  loading="lazy"
-                  width="36"
-                  height="36"
-                  decoding="async"
-                  data-nimg="1"
-                  src="https://www.englishyaari.com/img/facebook.svg"
-                />
-              </a>
-              <a className="hover:scale-110" target="_blank" href="/">
-                <img
-                  alt="linkdin icon"
-                  loading="lazy"
-                  width="36"
-                  height="36"
-                  decoding="async"
-                  data-nimg="1"
-                  src="https://www.englishyaari.com/img/linkdin.svg"
-                />
-              </a>
-              <a className="hover:scale-110" target="_blank" href="/">
-                <img
-                  alt="instagram icon"
-                  loading="lazy"
-                  width="36"
-                  height="36"
-                  decoding="async"
-                  data-nimg="1"
-                  src="https://www.englishyaari.com/img/instagram1.svg"
-                />
-              </a>
-              <a className="hover:scale-110" target="_blank" href="">
-                <img
-                  alt="twitter icon"
-                  loading="lazy"
-                  width="36"
-                  height="36"
-                  decoding="async"
-                  data-nimg="1"
-                  src="https://www.englishyaari.com/img/twitter.svg"
-                />
+              <a
+                className="hover:scale-110 transition-all duration-300"
+                target="_blank"
+                href="#"
+              >
+                <IoLogoWhatsapp className="w-9 h-9" />
               </a>
               <a
-                className="hover:scale-110"
+                className="hover:scale-110 transition-all duration-300"
                 target="_blank"
-                href="https://www.youtube.com/"
+                href="/"
               >
-                <img
-                  alt="youtube icon"
-                  loading="lazy"
-                  width="36"
-                  height="36"
-                  decoding="async"
-                  data-nimg="1"
-                  src="https://www.englishyaari.com/img/youtube.svg"
-                />
+                <FaInstagram className="w-9 h-9" />
+              </a>
+              <a
+                className="hover:scale-110 transition-all duration-300"
+                target="_blank"
+                href="/"
+              >
+                <FaTelegramPlane className="w-9 h-9" />
+              </a>
+              <a
+                className="hover:scale-110 transition-all duration-300"
+                target="_blank"
+                href=""
+              >
+                <svg
+                  width="36px"
+                  height="36px"
+                  viewBox="0 0 36 36"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="white"
+                >
+                  <path d="M8.952 35.913a9.9 9.9 0 0 1 -3.498 -1.245c-2.43 -1.393 -4.244 -3.889 -4.825 -6.639 -0.226 -1.075 -0.255 -2.434 -0.225 -10.81C0.432 8.205 0.411 8.67 0.84 7.185c0.213 -0.74 0.806 -2.01 1.234 -2.651C3.657 2.179 5.985 0.667 8.87 0.12c0.576 -0.109 1.41 -0.12 9.084 -0.12 9.377 0 9.067 -0.013 10.599 0.471a10.2 10.2 0 0 1 6.471 6.276c0.495 1.405 0.519 1.631 0.553 5.333l0.03 3.345 -0.587 0.402c-0.837 0.572 -1.935 1.59 -3.474 3.225 -1.773 1.884 -3.564 3.63 -4.473 4.361 -1.963 1.576 -3.762 2.477 -5.589 2.796 -0.951 0.165 -2.523 0.101 -3.453 -0.143 -0.83 -0.216 -0.776 -0.252 -1.089 0.696a9.6 9.6 0 0 0 -0.477 2.319l-0.046 0.61 -0.219 -0.045c-1.823 -0.361 -3.628 -1.927 -4.326 -3.75a5.4 5.4 0 0 1 -0.39 -1.829l-0.024 -0.51 -0.464 -0.426c-0.966 -0.885 -1.595 -1.968 -1.792 -3.091 -0.318 -1.79 0.51 -3.813 2.307 -5.634 1.896 -1.924 4.691 -3.435 7.43 -4.02 0.987 -0.21 2.727 -0.265 3.604 -0.112 1.707 0.297 3.101 1.159 3.968 2.458 0.273 0.407 0.292 0.465 0.265 0.833a1.2 1.2 0 0 1 -0.274 0.74c-0.698 0.977 -2.772 2.022 -5.004 2.52 -3.938 0.877 -6.441 -0.213 -6.05 -2.638 0.039 -0.244 0.06 -0.456 0.046 -0.47 -0.048 -0.048 -0.44 0.156 -0.862 0.45 -0.718 0.501 -1.355 1.476 -1.575 2.41 -0.054 0.234 -0.075 0.609 -0.051 0.975 0.03 0.497 0.08 0.681 0.288 1.104 0.138 0.279 0.413 0.675 0.612 0.883l0.36 0.377 -0.144 0.183a7.35 7.35 0 0 0 -1.016 1.826 5.46 5.46 0 0 0 -0.158 2.723c0.154 0.692 0.631 1.643 1.109 2.202 0.363 0.427 1.196 1.146 1.329 1.146 0.036 0 0.066 -0.072 0.066 -0.159 0.002 -0.345 0.276 -1.46 0.489 -1.99 0.634 -1.587 2.026 -2.94 4.23 -4.11 0.367 -0.195 1.428 -0.705 2.358 -1.135 2.04 -0.945 3.155 -1.522 3.767 -1.958 1.764 -1.249 2.854 -3.098 3.21 -5.438 0.129 -0.855 0.129 -2.451 0 -3.31 -0.552 -3.657 -3.292 -6.144 -7.227 -6.555 -4.387 -0.461 -9.972 2.929 -13.413 8.14 -1.674 2.535 -2.805 5.348 -3.28 8.165 -0.184 1.092 -0.254 3.12 -0.14 4.125 0.289 2.556 1.233 4.617 2.854 6.234a9.75 9.75 0 0 0 2.805 1.97c3.552 1.695 7.485 1.732 10.942 0.106 1.494 -0.704 2.961 -1.794 4.535 -3.375 1.53 -1.537 2.565 -2.82 5.388 -6.687 1.56 -2.135 2.796 -3.552 3.408 -3.907l0.225 -0.129 -0.028 4.636c-0.027 4.489 -0.033 4.661 -0.184 5.341 -0.9 4.017 -3.81 6.954 -7.793 7.863l-0.702 0.161 -8.663 0.015c-7.101 0.012 -8.775 -0.003 -9.285 -0.084z" />
+                </svg>
               </a>
             </div>
           </div>
@@ -159,89 +146,6 @@ export default function Footer() {
                 <p className="font-Inter text-[12px] font-medium text-white">
                   Address
                 </p>
-              </div>
-            </div>
-          </div>
-          <div className="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px]">
-            <div className="">
-              <p className="text-deutziawhite font-inter text-[18px] font-medium leading-normal">
-                Pages
-              </p>
-              <ul>
-                <li className="mt-[15px]">
-                  <a className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold">
-                    Home
-                  </a>
-                </li>
-                <li className="mt-[15px]">
-                  <a
-                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                    href="/our-tutors"
-                  >
-                    News
-                  </a>
-                </li>
-                <li className="mt-[15px]">
-                  <a
-                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                    href="/become-a-tutor"
-                  >
-                    Contact
-                  </a>
-                </li>
-                <li className="mt-[15px]">
-                  <a
-                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                    href="/plans-and-pricing"
-                  >
-                    Plans and pricing
-                  </a>
-                </li>
-                <li className="mt-[15px]">
-                  <a
-                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                    href="/terms-and-conditions"
-                  >
-                    Terms and conditions
-                  </a>
-                </li>
-                <li className="mt-[15px]">
-                  <a
-                    className="text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
-                    href="/privacy-policy"
-                  >
-                    Privcay policy
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="mt-6 flex flex-col gap-4 sm:mt-0">
-              <p className="text-deutziawhite font-inter text-[18px] font-medium">
-                Download the app
-              </p>
-              <div className="flex gap-4 sm:flex-col">
-                <a target="_blank" href="#">
-                  <img
-                    alt="facebook icon"
-                    loading="lazy"
-                    width="168"
-                    height="50"
-                    decoding="async"
-                    data-nimg="1"
-                    src="https://www.englishyaari.com/img/google-store.svg"
-                  />
-                </a>
-                <a target="_blank" href="#">
-                  <img
-                    alt="facebook icon"
-                    loading="lazy"
-                    width="168"
-                    height="50"
-                    decoding="async"
-                    data-nimg="1"
-                    src="https://www.englishyaari.com/img/apple-store.svg"
-                  />
-                </a>
               </div>
             </div>
           </div>

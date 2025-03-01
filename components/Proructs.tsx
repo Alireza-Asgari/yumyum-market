@@ -2,14 +2,15 @@ import React from "react";
 
 export default function Proructs() {
   return (
-    <div className="relative w-full">
-      <div className="text-center pt-52 pb-12">
-        <h2 className="font-bold text-4xl mb-4 text-purple-50">
-          محصولات یام یام مارکت
-        </h2>
+    <section className="container relative w-full">
+      <div className="text-center text-gray-700">
+        <p className="font-bold text-2xl mb-20">
+          در این بخش دسته بندی ویژه ای برای شما قرار داده ایم تا بتوانید در سریع
+          ترین حالت ممکن خرید خود را انجام دهید.
+        </p>
       </div>
 
-      <section className="w-full grid grid-cols-2 lg:grid-cols-3 justify-items-center justify-center mx-auto gap-x-1 gap-y-4 sm:gap-8 mt-10 mb-5">
+      <div className="w-full grid grid-cols-2 lg:grid-cols-3 justify-items-center justify-center mx-auto gap-x-1 gap-y-4 sm:gap-8 mt-10 mb-5">
         <div className="w-36 xs:w-40 sm:w-72 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl">
           <a href="#">
             <img
@@ -105,7 +106,7 @@ export default function Proructs() {
             </div>
           </a>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }

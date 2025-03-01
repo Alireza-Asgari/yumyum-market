@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" dir="rtl">
       <body
-        className={`${iranSans.variable} antialiased container max-w-[1700px] mx-auto overflow-x-hidden bg-pink-400 bg-opacity-80`}
+        className={`${iranSans.variable} antialiased container max-w-[1700px] mx-auto overflow-x-hidden bg-pink-100 bg-opacity-80`}
       >
         <main>
           <Header />

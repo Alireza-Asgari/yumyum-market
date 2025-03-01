@@ -21,7 +21,7 @@ const items = [
   },
   {
     icon: <GrOptimize />,
-    header: "پگ تعداد",
+    header: "پک تعداد",
   },
 ];
 const variants = {
@@ -39,13 +39,24 @@ const variants = {
 
 export default function BuyMethod() {
   return (
-    <section className="container mx-auto mt-20 pb-20 w-full text-white space-y-12">
+    <section className="container mx-auto mt-20 pb-20 w-full text-gray-700 space-y-12">
       <FadeDown>
-        <h2 className="heading-2 text-center">روش‌های خرید: </h2>
+        <h4 className="heading-3 text-center">
+          روش خرید انلاین از یام یام مارکت :
+        </h4>
       </FadeDown>
 
       <div className="relative ">
-        <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+        <p className="paragraph"> روش خرید از سایت ما خیلی ساده است.</p>
+        <p className="paragraph">
+          شما شکلات را بر اساس نوع و وزن و بسته بندی انتخاب می کنید و وارد درگاه
+          خرید شده و به راحتی فرایند خرید آنلاین را انجام می دهید.
+        </p>
+        <p className="paragraph">
+          شکلات های مد نظر شما بعد از 4 روز کاری به دست شما در هر نقطه از ایران
+          خواهد رسید
+        </p>
+        <div className="mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center text-gray-200">
           {items.map((item, i) => (
             <SevicesCard
               custom={i}

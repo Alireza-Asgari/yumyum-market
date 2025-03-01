@@ -1,7 +1,9 @@
 import Carousel from "@/components/Carousel";
 import ContactUs from "@/components/ContactUs";
 import Hero from "@/components/Hero";
+import Buy from "@/components/mainPage/Buy";
 import BuyMethod from "@/components/mainPage/BuyMethod";
+import Delivery from "@/components/mainPage/Delivery";
 import { MovingCards } from "@/components/mainPage/MovingCards";
 import Proructs from "@/components/Proructs";
 import Wavy from "@/components/Wavy";
@@ -12,10 +14,12 @@ export default function page() {
     <div className="overflow-x-hidden">
       <Hero />
       <MovingCards />
-      <BuyMethod />
+      <Buy />
       <Proructs />
+      <BuyMethod />
       <Carousel />
       <Wavy />
+      <Delivery />
       <ContactUs />
     </div>
   );
